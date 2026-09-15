@@ -499,6 +499,12 @@ footer.site-footer {
 .social-row a:hover { background: var(--leaf); }
 .social-row svg { width: 18px; height: 18px; color: #fff; }
 
+.social-row-light { justify-content: center; }
+.social-row-light a { background: var(--leaf-light); }
+.social-row-light a:hover { background: var(--leaf); }
+.social-row-light svg { color: var(--leaf-dark); }
+.social-row-light a:hover svg { color: #fff; }
+
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.1);
   padding-top: 24px;
