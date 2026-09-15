@@ -510,6 +510,23 @@ footer.site-footer {
 .social-row-light svg { color: var(--leaf-dark); }
 .social-row-light a:hover svg { color: #fff; }
 
+.social-row-edge {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.social-row-edge a {
+  width: clamp(70px, 10vw, 130px);
+  height: clamp(70px, 10vw, 130px);
+}
+.social-row-edge svg { width: 55%; height: 55%; }
+@media (max-width: 640px) {
+  .social-row-edge { padding: 0 16px; }
+}
+
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.1);
   padding-top: 24px;
