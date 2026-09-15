@@ -518,7 +518,7 @@ footer.site-footer {
 }
 .breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 14px; }
 .breadcrumb a { color: var(--leaf-dark); }
-.page-hero p { max-width: 620px; margin: 0 auto; }
+.page-hero p { max-width: 620px; margin: 0 auto; font-size: 19px; }
 
 /* ---------- Forms ---------- */
 .form-card {
