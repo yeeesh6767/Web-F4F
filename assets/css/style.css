@@ -487,7 +487,7 @@ footer.site-footer {
 .footer-grid a:hover { color: #fff; }
 
 .footer-brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-head); font-weight: 800; font-size: 1.2rem; color: #fff; margin-bottom: 14px; }
-.footer-brand .logo-mark { width: 34px; height: 34px; }
+.footer-brand .logo-mark, .footer-brand .logo-photo { width: 34px; height: 34px; }
 
 .social-row { display: flex; gap: 12px; margin-top: 16px; }
 .social-row a {
